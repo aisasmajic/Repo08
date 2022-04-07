@@ -1,11 +1,9 @@
 // Only change code below this line
 var total = 0;
-function funcWithArg(digit){
-    total = (digit + 9) / 5;
-    return total
+function funcWithArg(digit) {
+    return (digit + 9) / 5;
 }
-funcWithArg(6);
-
+total = funcWithArg(6);
 // Only change code above this line
 console.log(total);
 module.exports = funcWithArg;
